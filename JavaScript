@@ -1,0 +1,9 @@
+// Calculate area of a rectangle
+function calculateArea(length, width) {
+    let area = length * width;
+    return area;
+}
+
+// Call the function
+let area = calculateArea(5, 4);
+console.log(`The area is: ${area}`);
